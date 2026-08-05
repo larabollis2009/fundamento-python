@@ -1,19 +1,20 @@
 def exibir_mensagem():
-    print('Te amo mor')
+    print("Hello World!!! \n")
 
 def somar():
     valor1 = 50
     valor2 = 60
     total = valor1 + valor2
-    print(f'o valor total foi {total}')
+    print(f"O resultado da soma é {total}")
 
 def calcular_media():
-    nota1 = float(input("digite sua primeira nota: "))
-    nota2 = float(input("digite sua segunda nota: "))
+    nota1 = float(input("Digite a nota da primeira : "))
+    nota2 = float(input("Digite a nota da primeira : "))
     media = (nota1 + nota2) / 2
     return media
 
 exibir_mensagem()
 somar()
+
 nota_final = calcular_media()
-print(f'a nota final foi {nota_final}')
+print(f"A nota final é {nota_final}")
